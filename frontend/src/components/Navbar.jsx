@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (   // ✅ REQUIRED
-    <nav aria-label="Global" class="flex items-center justify-evenly lg:px-8 bg-[#f9e5ea] text-[#770844] p-3">
+    <nav aria-label="Global" className="flex items-center justify-evenly lg:px-8 bg-[#f9e5ea] text-[#770844] p-3">
       <a href="/products">Products</a>
       <a href="/about">About</a>
       <Link to="/login">Login</Link>

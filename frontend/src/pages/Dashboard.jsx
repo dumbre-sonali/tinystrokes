@@ -15,7 +15,7 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f9e5ea] to-white p-8">
+    <div className="min-h-screen bg-linear-to-br from-[#f9e5ea] to-white p-8">
 {
   /* {data ? (
     <pre>{JSON.stringify(data, null, 2)}</pre>

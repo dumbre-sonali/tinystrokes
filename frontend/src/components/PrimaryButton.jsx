@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 function PrimaryButton({ text }) {
   return (
-    <button className="flex items-center gap-2 bg-[#770844] text-white px-5 py-2 rounded group mx-auto mt-8">
+    <button className="cursor-pointer flex items-center gap-2 bg-[#770844] text-white px-5 py-2 rounded group mx-auto mt-8">
             {text}
         <ArrowRight
         size={18}
