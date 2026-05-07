@@ -5,11 +5,11 @@ function Dashboard() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/profile", {
-      headers: {
-        Authorization: "Bearer " + localStorage.getItem("token"),
-      },
-    })
+   fetch(`${import.meta.env.VITE_API_URL}/api/profile`, {
+  headers: {
+    Authorization: "Bearer " + localStorage.getItem("token"),
+  },
+})
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
